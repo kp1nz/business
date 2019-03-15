@@ -12,8 +12,5 @@ public class TestMD5 {
     @Test
     public void get(){
         System.out.println(MD5Utils.getMD5Code("admin"));
-        System.out.println(MD5Utils.getMD5Code("admin"));
-        System.out.println(MD5Utils.getMD5Code("admin"));
-        System.out.println(MD5Utils.getMD5Code("admin"));
     }
 }
