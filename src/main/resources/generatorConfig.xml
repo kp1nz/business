@@ -20,17 +20,17 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!--生成pojo实体类-->
-        <javaModelGenerator targetPackage="com.neuedu.pojo" targetProject="./src/main/java">
+        <javaModelGenerator targetPackage="com.kp1nz.pojo" targetProject="./src/main/java">
             <property name="enableSubPackages" value="false"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!--生成mybatis的sql文件-->
-        <sqlMapGenerator targetPackage="com.neuedu.mapper" targetProject="./src/main/resources">
+        <sqlMapGenerator targetPackage="com.kp1nz.mapper" targetProject="./src/main/resources">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
         <!--生成dao接口-->
-        <javaClientGenerator targetPackage="com.neuedu.dao" type="XMLMAPPER" targetProject="./src/main/java">
+        <javaClientGenerator targetPackage="com.kp1nz.dao" type="XMLMAPPER" targetProject="./src/main/java">
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
