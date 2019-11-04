@@ -1,5 +1,6 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+zfbinfo.properties
 
 ### STS ###
 .apt_generated
